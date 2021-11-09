@@ -18,7 +18,7 @@ python api.py
 
 ## Server Functionality
 #### TEST WITH POSTMAN 
-
+```
 1.GET /drinks - Returns the id, name, description and price of all drinks
 2.GET /drink/<id> - Returns id, name, description and price of a drink
 3.GET /pizzas - Returns the id, name, description and price of all pizzas
@@ -27,6 +27,8 @@ python api.py
 6.GET /dessert/<id> - Returns id, name, description and price of a dessert
 7.POST /order - receives an order and returns its total price.
 body should be:
+```
+
 ```
 {
     "drinks": [id_5, id_6],  // eg: "drinks": [123, 124] 
