@@ -19,13 +19,13 @@ python api.py
 ## Server Functionality
 #### TEST WITH POSTMAN 
 
-GET /drinks - Returns the id, name, description and price of all drinks
-GET /drink/<id> - Returns id, name, description and price of a drink
-GET /pizzas - Returns the id, name, description and price of all pizzas
-GET /pizza/<id> - Returns id, name, description and price of a pizza
-GET /desserts - Returns the id, name, description and price of all desserts
-GET /dessert/<id> - Returns id, name, description and price of a dessert
-POST /order - receives an order and returns its total price.
+1.GET /drinks - Returns the id, name, description and price of all drinks
+2.GET /drink/<id> - Returns id, name, description and price of a drink
+3.GET /pizzas - Returns the id, name, description and price of all pizzas
+4.GET /pizza/<id> - Returns id, name, description and price of a pizza
+5.GET /desserts - Returns the id, name, description and price of all desserts
+6.GET /dessert/<id> - Returns id, name, description and price of a dessert
+7.POST /order - receives an order and returns its total price.
 body should be:
 ```
 {
